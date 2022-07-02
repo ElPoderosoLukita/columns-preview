@@ -152,9 +152,11 @@ main .main--Luxury button{
         flex-direction: row;
         height: 30rem;
     }
+
     /*SEDANS*/
     main .main--sedans{
-        width: 35rem;
+        width: 30rem;
+        padding-right: 0;
     }
     main .main--sedans img{
         margin-top: 25px;
@@ -171,12 +173,12 @@ main .main--Luxury button{
         margin-top: 10px;
     }
     main .main--sedans button{
-        margin-top: 5.5rem;
+        margin-top: 4.5rem;
     }
 
     /*SUVS*/
     main .main--SUVS{
-        width: 35rem;
+        width: 30rem;
     }
     main .main--SUVS img{
         margin-top: 25px;
@@ -193,6 +195,28 @@ main .main--Luxury button{
         margin-top: 10px;
     }
     main .main--SUVS button{
-        margin-top: 5.5rem;
+        margin-top: 4.5rem;
+    }
+
+    /*Luxury*/
+    main .main--Luxury{
+        width: 30rem;
+    }
+    main .main--Luxury img{
+        margin-top: 25px;
+    }
+    main .main--Luxury .Mobile{
+        display: none;
+    }
+    main .main--Luxury .Desktop{
+        display: block;
+        color: var(--transparentwhite-paragraphs);
+        padding-top: 13px;
+        text-align:left;
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
+    main .main--Luxury button{
+        margin-top: 4.5rem;
     }
 }
