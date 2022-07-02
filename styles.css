@@ -17,7 +17,7 @@ html{
 }
 main{
     width: 58%;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -27,7 +27,6 @@ main{
 main .main--sedans img{
     width: 35px;
     margin-top: 20px;
-
 }
 main .main--sedans{
     background-color: var(--brightorange);  
@@ -40,11 +39,14 @@ main .main--sedans h2{
     font-size: 2.4rem;
     margin-top: 15px;
 }
-main .main--sedans p{
+main .main--sedans .Mobile{
     color: var(--transparentwhite-paragraphs);
     padding-top: 13px;
     text-align:left;
     font-size: 1.1rem;
+}
+main .main--sedans .Desktop{
+    display: none;
 }
 main .main--sedans button{
     height: 30px;
@@ -61,3 +63,110 @@ main .main--sedans button{
     margin-bottom: 25px;
     font-size: 1.1rem;
 }
+
+/*SUVS*/
+main .main--SUVS{
+    background-color: var(--darkcyan);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+main .main--SUVS h2{
+    color: var(--verylightgray-background-headings-buttons);
+    font-family: 'Big Shoulders Display';
+    font-size: 2.4rem;
+    margin-top: 15px;
+}
+main .main--SUVS .Mobile{
+    color: var(--transparentwhite-paragraphs);
+    padding-top: 13px;
+    text-align:left;
+    font-size: 1.1rem;
+}
+main .main--SUVS .Desktop{
+    display: none;
+}
+main .main--SUVS img{
+    width: 35px;
+    margin-top: 20px;
+}
+main .main--SUVS button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: var(--verylightgray-background-headings-buttons);
+    color: var(--darkcyan);
+    font-family: 'Lexend Deca';
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+}
+
+/*lUXURY*/
+/* main .main--Luxury{
+    background-color: var(--verydarkcyan);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+main .main--Luxury h2{
+    color: var(--verylightgray-background-headings-buttons);
+    font-family: 'Big Shoulders Display';
+    font-size: 2.4rem;
+    margin-top: 15px;
+}
+main .main--Luxury .Mobile{
+    color: var(--transparentwhite-paragraphs);
+    padding-top: 13px;
+    text-align:left;
+    font-size: 1.1rem;
+}
+main .main--Luxury .Desktop{
+    display: none;
+}
+main .main--Luxury img{
+    width: 35px;
+    margin-top: 20px;
+}
+main .main--Luxury button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: var(--verylightgray-background-headings-buttons);
+    color: var(--verydarkcyan);
+    font-family: 'Lexend Deca';
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
+} */
+
+/* @media (min-width:1440px) {
+    main{
+        display: flex;
+        flex-direction: row;
+        height: 35rem;
+    }
+    /*SEDANS*/
+    /* main .main--sedans{
+        width: 35rem;
+    }
+    main .main--sedans img{
+        margin-top: 25px;
+    }
+    main .main--sedans .Mobile{
+        display: none;
+    }
+    main .main--sedans .Desktop{
+        display: block;
+        color: var(--transparentwhite-paragraphs);
+        padding-top: 13px;
+        text-align:left;
+        font-size: 1.1rem;
+    }
+} */
