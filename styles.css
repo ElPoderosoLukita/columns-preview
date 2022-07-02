@@ -146,14 +146,14 @@ main .main--Luxury button{
     font-size: 1.1rem;
 }
 
-/* @media (min-width:1440px) {
+@media (min-width:1440px) {
     main{
         display: flex;
         flex-direction: row;
-        height: 35rem;
+        height: 30rem;
     }
     /*SEDANS*/
-    /* main .main--sedans{
+    main .main--sedans{
         width: 35rem;
     }
     main .main--sedans img{
@@ -168,5 +168,9 @@ main .main--Luxury button{
         padding-top: 13px;
         text-align:left;
         font-size: 1.1rem;
+        margin-top: 10px;
     }
-} */
+    main .main--sedans button{
+        margin-top: 4rem;
+    }
+}
