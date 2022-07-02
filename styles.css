@@ -106,7 +106,7 @@ main .main--SUVS button{
 }
 
 /*lUXURY*/
-/* main .main--Luxury{
+main .main--Luxury{
     background-color: var(--verydarkcyan);
     padding-left: 25px;
     padding-right: 25px;
@@ -144,7 +144,7 @@ main .main--Luxury button{
     margin-top: 15px;
     margin-bottom: 25px;
     font-size: 1.1rem;
-} */
+}
 
 /* @media (min-width:1440px) {
     main{
