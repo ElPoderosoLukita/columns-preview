@@ -16,9 +16,48 @@ html{
     font-family: 'Lexend Deca', sans-serif;
 }
 main{
-    width: 95%;
+    width: 58%;
     background-color: aqua;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+}
+
+/*SEDANS*/
+main .main--sedans img{
+    width: 35px;
+    margin-top: 20px;
+
+}
+main .main--sedans{
+    background-color: var(--brightorange);  
+    padding-left: 25px;
+    padding-right: 25px;
+}
+main .main--sedans h2{
+    color: var(--verylightgray-background-headings-buttons);
+    font-family: 'Big Shoulders Display';
+    font-size: 2.4rem;
+    margin-top: 15px;
+}
+main .main--sedans p{
+    color: var(--transparentwhite-paragraphs);
+    padding-top: 13px;
+    text-align:left;
+    font-size: 1.1rem;
+}
+main .main--sedans button{
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: var(--verylightgray-background-headings-buttons);
+    color: var(--brightorange);
+    font-family: 'Lexend Deca';
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 1.1rem;
 }
