@@ -171,6 +171,28 @@ main .main--Luxury button{
         margin-top: 10px;
     }
     main .main--sedans button{
-        margin-top: 4rem;
+        margin-top: 5.5rem;
+    }
+
+    /*SUVS*/
+    main .main--SUVS{
+        width: 35rem;
+    }
+    main .main--SUVS img{
+        margin-top: 25px;
+    }
+    main .main--SUVS .Mobile{
+        display: none;
+    }
+    main .main--SUVS .Desktop{
+        display: block;
+        color: var(--transparentwhite-paragraphs);
+        padding-top: 13px;
+        text-align:left;
+        font-size: 1.1rem;
+        margin-top: 10px;
+    }
+    main .main--SUVS button{
+        margin-top: 5.5rem;
     }
 }
